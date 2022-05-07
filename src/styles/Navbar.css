@@ -1,0 +1,75 @@
+.Navbar {
+  background-color: #ff8a00;
+  padding-top: 30px;
+  /* border: 1px solid red; */
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  color: #fff;
+  width: 100vw;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 20;
+}
+
+.Navbar .logo {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 23px;
+  line-height: 141.69%;
+}
+.Navbar nav {
+  margin-left: 200px;
+}
+.Navbar ul {
+  display: flex;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+.Navbar ul li {
+  padding: 20px;
+}
+
+.Navbar ul li a {
+  text-decoration: none;
+  color: #fff;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 141.69%;
+  transition: 0.4s ease;
+}
+.Navbar ul li a:hover {
+}
+.Navbar ul li a.active {
+  padding-bottom: 8px;
+  border-bottom: 2px solid #fff;
+}
+.Navbar .btn {
+  width: 183px;
+  height: 50px;
+  left: 1605px;
+  top: 52px;
+  border: none;
+  background: rgba(255, 255, 255, 0.91);
+  border-radius: 4px;
+  transition: 0.2s ease;
+}
+.Navbar .btn a {
+  text-decoration: none;
+  color: rgb(255, 157, 0);
+  font-weight: bold;
+  font-size: 17px;
+}
+
+.Navbar .btn:hover {
+  border: 1px solid #fff;
+  background-color: transparent;
+}
+.Navbar .btn:hover a {
+  color: #fff;
+}

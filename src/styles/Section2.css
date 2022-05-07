@@ -1,0 +1,39 @@
+.Section2 {
+  padding-top: 200px;
+  padding-bottom: 200px;
+  display: flex;
+  flex-direction: row;
+  gap: 30px;
+  max-width: 1800px;
+}
+.textright {
+  margin-right: 100px;
+  width: 50%;
+  text-align: end;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 47px;
+  text-align: right;
+  color: #fffefe;
+}
+.textleft {
+  width: 50%;
+  margin-left: 100px;
+  margin-top: 200px;
+  text-align: start;
+
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 47px;
+
+  color: #fffefe;
+}
+.textleft p {
+  font-size: 30px;
+  font-weight: 300;
+  line-height: 50px;
+}
