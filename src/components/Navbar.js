@@ -34,7 +34,7 @@ function Navbar() {
           </li>
         </ul>
       </nav>
-      <button class="btn">
+      <button className="btn">
         <a href="">Launch App</a>
       </button>
     </div>

@@ -55,6 +55,7 @@
   font-size: 17px;
   line-height: 24px;
   color: #d77400;
+  color: #ffffff;
 }
 .hero--btn a {
   text-decoration: none;
@@ -64,12 +65,15 @@
 }
 .btn2 {
   background-color: transparent;
+  max-width: 230px;
 }
 .btn2 a {
   color: #fff;
 }
 .btn2:hover {
   background-color: #fff;
+  color: rgb(255, 157, 0);
+  cursor: pointer;
 }
 .btn2:hover a {
   color: rgb(255, 157, 0);
