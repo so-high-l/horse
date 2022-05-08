@@ -1,4 +1,5 @@
 import React from "react";
+// import Web3 from "web3";
 import "./styles/App.css";
 import Navbar from "./components/Navbar";
 import Home from "./pages/Home";

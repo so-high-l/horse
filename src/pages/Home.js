@@ -1,6 +1,18 @@
-import React from "react";
+import React, { useEffect } from "react";
+import { useWeb3React } from "@web3-react/core";
+import { injected } from "../wallet/Connect";
+import web3 from "web3";
 import "../styles/Home.css";
 function Home() {
+  const { active, account, library, activate, deactivate } = useWeb3React();
+
+  async function connect() {
+    try {
+      await activate(injected);
+    } catch (ex) {
+      console.log(ex);
+    }
+  }
   return (
     <div className="Home">
       <div className="ellipse1"></div>
@@ -29,7 +41,7 @@ function Home() {
           <button className="hero--btn">
             <a href="">Buy Horse</a>
           </button>
-          <button className="hero--btn btn2">
+          <button className="hero--btn btn2" onClick={connect}>
             <a href="">Connect wallet</a>
           </button>
         </div>
