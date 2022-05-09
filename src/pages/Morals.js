@@ -18,7 +18,8 @@ function Morals() {
         <div className="moral moral2">
           <h2 className="moral--title">Availability</h2>
           <p className="moral--text">
-            All our contracts are publics and can be modified by the community.
+            All our contracts are public and can be modified by the community.{" "}
+            <br />
             The treasuray is locked with a mulitsig and all the tokens teams are
             locked for 6 months.
           </p>
