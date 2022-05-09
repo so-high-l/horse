@@ -6,13 +6,29 @@
   flex-direction: column;
   align-items: center;
 }
-/* ::-moz-selection {
-  
-  color: red;
-  background: yellow;
+
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+::-webkit-scrollbar-track {
+  background: #975100;
+  border-left: 1px solid #000;
+}
+
+::-webkit-scrollbar-thumb {
+  background: rgba(192, 102, 0, 0.747);
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #bbbbbb;
+}
+::-moz-selection {
+  color: rgb(10, 10, 102);
+  background: rgb(207, 128, 0);
 }
 
 ::selection {
   color: rgb(10, 10, 102);
-  background: rgb(255, 157, 0);
-} */
+  background: rgb(207, 128, 0);
+}
