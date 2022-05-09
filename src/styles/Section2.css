@@ -33,6 +33,9 @@
   color: #fffefe;
 }
 .textleft p {
+  width: 690px;
+  height: 72px;
+  margin-top: 15px;
   font-size: 30px;
   font-weight: 300;
   line-height: 50px;

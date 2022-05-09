@@ -5,6 +5,8 @@ import Navbar from "./components/Navbar";
 import Home from "./pages/Home";
 import Section2 from "./pages/Section2";
 import Morals from "./pages/Morals";
+import Section4 from "./pages/Section4";
+import SystemRewards from "./pages/SystemRewards";
 
 function App() {
   return (
@@ -13,6 +15,8 @@ function App() {
       <Home />
       <Section2 />
       <Morals />
+      <Section4 />
+      <SystemRewards />
     </div>
   );
 }

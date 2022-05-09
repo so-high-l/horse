@@ -76,5 +76,9 @@
   line-height: 28px;
   text-decoration: none;
   text-align: center;
-  color: #ffffff;
+  color: #e4e4e4;
+  transition: 0.3s ease;
+}
+.Morals--btn a:hover {
+  color: #fff;
 }
