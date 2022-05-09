@@ -24,9 +24,6 @@ function Navbar() {
             <a href="">Buy</a>
           </li>
           <li>
-            <a href="">Home</a>
-          </li>
-          <li>
             <a href="">Roadmap</a>
           </li>
           <li>
