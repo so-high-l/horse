@@ -5,7 +5,7 @@
 }
 .Home {
   padding-top: 150px;
-  height: 100vh;
+  /* height: 100vh; */
   color: #fff;
   display: flex;
   flex-direction: row;
@@ -21,7 +21,7 @@
   gap: 10px;
 }
 .hero--title {
-  font-size: 60px;
+  font-size: 55px;
   font-weight: 600;
 }
 .hero--desc {
@@ -54,12 +54,12 @@
   font-weight: 500;
   font-size: 17px;
   line-height: 24px;
-  color: #d77400;
+  color: #000;
   color: #ffffff;
 }
 .hero--btn a {
   text-decoration: none;
-  color: rgb(255, 157, 0);
+  color: #000;
   font-weight: bold;
   cursor: pointer;
 }
@@ -72,11 +72,11 @@
 }
 .btn2:hover {
   background-color: #fff;
-  color: rgb(255, 157, 0);
+  color: #000;
   cursor: pointer;
 }
 .btn2:hover a {
-  color: rgb(255, 157, 0);
+  color: #000;
 }
 .hero--stats {
   margin-top: 70px;
@@ -101,7 +101,7 @@
   font-size: 30px;
 }
 .stat--name {
-  color: rgb(240, 240, 240);
+  color: rgba(255, 255, 255, 0.7);
 }
 
 /* ellipses and rectangles */
@@ -198,12 +198,20 @@
   border: 1px solid rgba(255, 255, 255, 0.5);
   border-radius: 11px;
 }
+.hero {
+  padding-left: 100px;
+  z-index: 10;
+}
+.rightsection {
+  width: 54%;
+  position: relative;
+}
 .rectangle7 {
   position: absolute;
   width: 298px;
   height: 84px;
-  left: 759px;
-  top: 476px;
+  right: 60px;
+  top: 420px;
   background: linear-gradient(
     91.03deg,
     rgba(255, 254, 254, 0.23) -47.11%,
@@ -216,4 +224,12 @@
   gap: 10px;
   text-align: center;
   justify-content: center;
+}
+
+.logo3d {
+  width: 953px;
+  height: 953px;
+  margin-top: -200px;
+  margin-left: -200px;
+  z-index: -1;
 }

@@ -2,6 +2,7 @@ import React from "react";
 import { useState } from "react";
 import { ethers } from "ethers";
 import "../styles/Home.css";
+import logo from "../assets/LOGO3D.png";
 function Home() {
   const contractAdress = "0x306b1ea3ecdf94aB739F1910bbda052Ed4A9f949";
   const contractAbi = [
@@ -525,6 +526,24 @@ function Home() {
         .then((result) => {
           accountChangedHandler(result[0]);
           setConnButtonText("Connected  ✓");
+          if (window.ethereum.networkVersion !== "43114") {
+            window.ethereum.request({
+              method: "wallet_addEthereumChain",
+              params: [
+                {
+                  chainId: "0xA86A",
+                  rpcUrls: ["https://api.avax.network/ext/bc/C/rpc"],
+                  chainName: "Avalanche Network",
+                  nativeCurrency: {
+                    name: "Avalanche",
+                    symbol: "AVAX",
+                    decimals: 18,
+                  },
+                  blockExplorerUrls: ["https://snowtrace.io/"],
+                },
+              ],
+            });
+          }
         });
     } else {
       setErrorMessage("Need to install Metamask !");
@@ -551,18 +570,13 @@ function Home() {
     <div className="Home">
       <div className="ellipse1"></div>
       <div className="ellipse2"></div>
-      <div className="ellipse3"></div>
-      <div className="ellipse4"></div>
+      {/* <div className="ellipse3"></div> 
+       <div className="ellipse4"></div>
       <div className="ellipse5"></div>
       <div className="ellipse6"></div>
-      <div className="ellipse7"></div>
+      <div className="ellipse7"></div> */}
       <div className="ellipse8"></div>
-      <div className="rectangle2"></div>
-      <div className="rectangle3"></div>
-      <div className="rectangle7">
-        <p> Remaining time</p>
-        <p>15D : 12H : 45M</p>
-      </div>
+
       <div className="hero">
         <h1 className="hero--title">
           An inventive POLAR fork on the Avalanche Blockchain
@@ -594,7 +608,15 @@ function Home() {
           </div>
         </div>
       </div>
-      <div className="rightsection"></div>
+      <div className="rightsection">
+        <div>
+          <img src={logo} alt="Logo Horse" className="logo3d" />
+        </div>
+        <div className="rectangle7">
+          <p> Remaining time</p>
+          <p>15D : 12H : 45M</p>
+        </div>
+      </div>
     </div>
   );
 }

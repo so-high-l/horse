@@ -1,5 +1,5 @@
 .App {
-  background-color: #ff8a00;
+  background-color: #000;
   font-family: "Roboto", sans-serif;
   align-self: center;
   display: flex;
@@ -7,7 +7,7 @@
   align-items: center;
 }
 
-::-webkit-scrollbar {
+/* ::-webkit-scrollbar {
   width: 10px;
 }
 
@@ -31,4 +31,4 @@
 ::selection {
   color: rgb(10, 10, 102);
   background: rgb(207, 128, 0);
-}
+} */

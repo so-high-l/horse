@@ -1,13 +1,13 @@
 .Navbar {
-  background-color: #ff8a00;
-  padding-top: 30px;
+  background-color: #000;
+  height: 85px;
   /* border: 1px solid red; */
   display: flex;
   align-items: center;
   justify-content: space-around;
   color: #fff;
-  width: 100vw;
   position: fixed;
+  width: 100vw;
   top: 0;
   left: 0;
   z-index: 20;
@@ -50,6 +50,8 @@
   border-bottom: 2px solid #fff;
 }
 .Navbar .btn {
+  cursor: pointer;
+
   width: 183px;
   height: 50px;
   left: 1605px;
@@ -61,7 +63,7 @@
 }
 .Navbar .btn a {
   text-decoration: none;
-  color: rgb(255, 157, 0);
+  color: #000;
   font-weight: bold;
   font-size: 17px;
 }
