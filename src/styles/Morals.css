@@ -39,7 +39,7 @@
   transition: 0.4s ease;
 }
 .moral:hover {
-  background-color: rgba(87, 87, 87, 0.438);
+  background-color: rgba(0, 0, 0, 0.658);
 }
 .moral--title {
   font-family: "Roboto";
@@ -57,12 +57,11 @@
   font-style: normal;
   font-weight: 500;
   font-size: 15px;
-  line-height: 21px;
+  line-height: 25px;
   text-align: center;
   color: #ffffff;
 }
 .Morals--btn {
-  margin-top: 112px;
   width: 292px;
   height: 84px;
 
@@ -74,13 +73,14 @@
   backdrop-filter: blur(30px);
   border-radius: 25px;
   border: none;
+  transform: translateY(120px);
 }
 .Morals--btn a {
   width: 135px;
   font-family: "Roboto";
   font-style: normal;
   font-weight: 500;
-  font-size: 20px;
+  font-size: 16px;
   line-height: 28px;
   text-decoration: none;
   text-align: center;
