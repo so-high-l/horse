@@ -12,7 +12,17 @@
   left: 0;
   z-index: 20;
 }
-
+.RespNavbar {
+  display: none;
+}
+.mask {
+  display: none;
+}
+.logomenu {
+  display: none;
+  z-index: 100;
+  margin-left: 134px;
+}
 .Navbar .logo {
   font-family: "Roboto";
   font-style: normal;
@@ -74,4 +84,72 @@
 }
 .Navbar .btn:hover a {
   color: #fff;
+}
+
+@media only screen and (max-width: 600px) {
+  .Navbar {
+    height: 70px;
+    width: 100vw;
+  }
+  .Navbar .logo {
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 19px;
+    line-height: 141.69%;
+  }
+  .Navbar nav {
+    display: none;
+  }
+  .Navbar .btn {
+    display: none;
+  }
+  .logomenu {
+    display: block;
+  }
+  .mask.active {
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100vh;
+    width: 100vw;
+    background-color: rgba(86, 86, 86, 0.389);
+    z-index: 90;
+  }
+  .RespNavbar.active {
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100vh;
+    width: 300px;
+    background-color: #000;
+    z-index: 99;
+    transition: 0.2 ease-in;
+  }
+  .RespNavbar ul {
+    display: flex;
+    flex-direction: column;
+    padding: 40px 40px;
+  }
+  .RespNavbar ul h2 {
+    text-align: center;
+    margin-bottom: 60px;
+    letter-spacing: 2px;
+    font-weight: 600;
+  }
+  .RespNavbar ul li:last-child {
+    margin-top: 30px;
+    padding: 15px 30px;
+    border-radius: 30px;
+    cursor: pointer;
+    width: 183px;
+    background: rgba(255, 255, 255, 0.91);
+    border-radius: 4px;
+    transition: 0.2s ease;
+  }
+  .RespNavbar ul li:last-child a {
+    color: #000;
+  }
 }

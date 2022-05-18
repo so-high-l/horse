@@ -18,7 +18,7 @@
   text-align: right;
   color: #fffefe;
 }
-.textleft {
+.sectin2--textleft {
   width: 50%;
   margin-left: 100px;
   margin-top: 200px;
@@ -32,11 +32,46 @@
 
   color: #fffefe;
 }
-.textleft p {
+.sectin2--textleft p {
   width: 690px;
   height: 72px;
   margin-top: 15px;
   font-size: 30px;
   font-weight: 300;
   line-height: 50px;
+}
+@media only screen and (max-width: 600px) {
+  .Section2 {
+    flex-direction: column;
+    padding: 30px;
+    width: 100vw;
+    margin-bottom: 100px;
+  }
+  .sectin2--textleft {
+    width: 100%;
+    margin-left: 0px;
+    margin-top: 60px;
+    text-align: center;
+    font-size: 25px;
+    color: #fffefe;
+  }
+  .sectin2--textleft p {
+    width: 100%;
+
+    margin-top: 15px;
+    font-size: 30px;
+    font-weight: 300;
+    line-height: 50px;
+  }
+  .textright {
+    margin-top: 40px;
+    margin-right: 0px;
+    width: 100%;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 47px;
+    text-align: center;
+    color: #fffefe;
+  }
+  
 }

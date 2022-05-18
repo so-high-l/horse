@@ -5,30 +5,30 @@
   display: flex;
   flex-direction: column;
   align-items: center;
+  overflow-x: hidden;
 }
 
-/* ::-webkit-scrollbar {
+::-webkit-scrollbar {
   width: 10px;
 }
 
 ::-webkit-scrollbar-track {
-  background: #975100;
-  border-left: 1px solid #000;
+  background: #ffffff;
 }
 
 ::-webkit-scrollbar-thumb {
-  background: rgba(192, 102, 0, 0.747);
+  background: rgba(138, 138, 138, 0.747);
 }
 
 ::-webkit-scrollbar-thumb:hover {
-  background: #bbbbbb;
+  background: #484848;
 }
 ::-moz-selection {
-  color: rgb(10, 10, 102);
-  background: rgb(207, 128, 0);
+  color: rgb(98, 98, 98);
+  background: rgb(252, 252, 252);
 }
 
 ::selection {
-  color: rgb(10, 10, 102);
-  background: rgb(207, 128, 0);
-} */
+  color: rgb(98, 98, 98);
+  background: rgb(252, 252, 252);
+}

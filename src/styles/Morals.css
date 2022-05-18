@@ -73,7 +73,7 @@
   backdrop-filter: blur(30px);
   border-radius: 25px;
   border: none;
-  transform: translateY(120px);
+  transform: translateY(55px);
 }
 .Morals--btn a {
   width: 135px;
@@ -84,9 +84,26 @@
   line-height: 28px;
   text-decoration: none;
   text-align: center;
-  color: #e4e4e4;
+  color: #cfcfcf;
   transition: 0.3s ease;
 }
 .Morals--btn a:hover {
-  color: #fff;
+  color: rgb(255, 255, 255);
+}
+@media only screen and (max-width: 600px) {
+  .morals {
+    width: auto;
+    margin-top: 80px;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+  }
+  .Morals--btn {
+    width: 200px;
+    height: 60px;
+    transform: translateY(0px);
+  }
+  .Morals--btn a {
+    font-size: 14px;
+  }
 }

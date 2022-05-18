@@ -3,7 +3,7 @@ import "../styles/Section2.css";
 function Section2() {
   return (
     <div className="Section2">
-      <div className="textleft">
+      <div className="sectin2--textleft">
         <h2>Forking POLAR </h2>
         <p>A prior step to achieving our goals</p>
       </div>
