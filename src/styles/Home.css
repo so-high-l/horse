@@ -11,6 +11,7 @@
   flex-direction: row;
   gap: 10px;
   max-width: 1800px;
+  width: 100vw;
 }
 .hero {
   padding: 10px;
@@ -237,14 +238,11 @@
 @media only screen and (max-width: 600px) {
   .Home {
     padding: 0;
-    height: auto;
     color: #fff;
     display: flex;
     flex-direction: column;
     width: 100vw;
     gap: 10px;
-    overflow-x: hidden;
-    width: 100vw;
   }
   .hero {
     z-index: 10;
@@ -278,7 +276,11 @@
     font-size: 15px;
   }
   .rightsection {
-    width: 100vw;
+    width: 99vw;
+    /* overflow-x: hidden; */
+  }
+  .rightsection div {
+    /* width: 100vw; */
     overflow-x: hidden;
   }
   .logo3d {
@@ -291,5 +293,9 @@
     top: 80%;
     left: 50%;
     transform: translate(-50%, -50%);
+  }
+
+  .ellipse8 {
+    display: none;
   }
 }
