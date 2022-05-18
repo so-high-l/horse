@@ -570,12 +570,6 @@ function Home() {
     <div className="Home">
       <div className="ellipse1"></div>
       <div className="ellipse2"></div>
-      {/* <div className="ellipse3"></div> 
-       <div className="ellipse4"></div>
-      <div className="ellipse5"></div>
-      <div className="ellipse6"></div>
-      <div className="ellipse7"></div> */}
-      <div className="ellipse8"></div>
 
       <div className="hero">
         <h1 className="hero--title">
