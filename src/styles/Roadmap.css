@@ -1,0 +1,113 @@
+.Roadmap {
+  padding-top: 200px;
+  padding-bottom: 200px;
+  width: 1500px;
+  max-width: 1800px;
+  position: relative;
+  height: 3000px;
+}
+.number {
+  width: 900px;
+  height: 900px;
+  position: absolute;
+}
+.number1 {
+  top: 0;
+  right: -50px;
+}
+.number2 {
+  top: 700px;
+  left: -20px;
+}
+.number3 {
+  top: 1300px;
+  right: -50px;
+}
+.number4 {
+  top: 1950px;
+  left: -20px;
+}
+.line {
+  position: absolute;
+}
+.line1 {
+  top: 490px;
+  right: 500px;
+}
+.line2 {
+  top: 1160px;
+  right: 400px;
+}
+.line3 {
+  top: 1790px;
+  right: 530px;
+}
+.text {
+  position: absolute;
+}
+.text1 {
+  top: 420px;
+  right: 520px;
+}
+.text2 {
+  top: 1060px;
+  left: 690px;
+}
+.text3 {
+  top: 1700px;
+  right: 570px;
+}
+.text4 {
+  top: 2400px;
+  left: 640px;
+}
+.text1 p {
+  width: 275px;
+  height: 45px;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 28px;
+  line-height: 141.69%;
+  color: #ffffff;
+}
+.text2 p {
+  width: 292px;
+  height: 102px;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 28px;
+  line-height: 141.69%;
+  color: #ffffff;
+}
+.text3 p {
+  width: 292px;
+  height: 102px;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 28px;
+  line-height: 141.69%;
+  text-align: right;
+  color: #ffffff;
+}
+.text4 p {
+  width: 292px;
+  height: 40px;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 28px;
+  line-height: 141.69%;
+  color: #ffffff;
+}
+.line4 {
+  position: absolute;
+  width: 1087px;
+  height: 0px;
+  top: 2900px;
+  left: 200px;
+
+  border: 2px solid #b6b6b6;
+}

@@ -1,5 +1,9 @@
 import React from "react";
 import "../styles/SystemRewards.css";
+import warmblood from "../assets/warmblood.png";
+import appaloosa from "../assets/appaloosa.png";
+import mustang from "../assets/mustang.png";
+import morgan from "../assets/morgan.png";
 function SystemRewards() {
   return (
     <div className="SystemRewards">
@@ -25,10 +29,15 @@ function SystemRewards() {
               <p className="breed--info">$HORSE</p>
             </div>
           </div>
-          <div className="breed--img"></div>
+          <div className="breed--img">
+            <img src={warmblood} alt="" />
+          </div>
         </div>
         <div className="breed left">
-          <div className="breed--img"></div>
+          <div className="breed--img">
+            {" "}
+            <img src={appaloosa} alt="" />
+          </div>
           <div className="breed--stats">
             <div>
               <p className="breed--name">Appaloosa</p>
@@ -59,10 +68,15 @@ function SystemRewards() {
               <p className="breed--info">$HORSE</p>
             </div>
           </div>
-          <div className="breed--img"></div>
+          <div className="breed--img">
+            <img src={mustang} alt="" />
+          </div>
         </div>
         <div className="breed left">
-          <div className="breed--img"></div>
+          <div className="breed--img">
+            {" "}
+            <img src={morgan} alt="" />
+          </div>
           <div className="breed--stats">
             <div>
               <p className="breed--name">Morgan</p>

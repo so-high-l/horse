@@ -7,6 +7,8 @@ import Section2 from "./pages/Section2";
 import Morals from "./pages/Morals";
 import Section4 from "./pages/Section4";
 import SystemRewards from "./pages/SystemRewards";
+import Roadmap from "./pages/Roadmap";
+import Footer from "./components/Footer";
 
 function App() {
   return (
@@ -17,6 +19,8 @@ function App() {
       <Morals />
       <Section4 />
       <SystemRewards />
+      <Roadmap />
+      <Footer />
     </div>
   );
 }

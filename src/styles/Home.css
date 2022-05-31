@@ -43,7 +43,7 @@
 }
 
 .hero--btn {
-  background-color: #fff;
+  background-color: #fffade;
   padding: 12px 40px;
   border-radius: 5px;
   font-size: 19px;
@@ -72,7 +72,7 @@
   color: #fff;
 }
 .btn2:hover {
-  background-color: #fff;
+  background-color: #fffade;
   color: #000;
   cursor: pointer;
 }

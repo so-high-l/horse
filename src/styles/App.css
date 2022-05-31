@@ -1,3 +1,6 @@
+html {
+  scroll-behavior: smooth;
+}
 .App {
   background-color: #000;
   font-family: "Roboto", sans-serif;
@@ -5,7 +8,7 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  overflow-y: hidden;
+  overflow-x: hidden;
 }
 
 ::-webkit-scrollbar {

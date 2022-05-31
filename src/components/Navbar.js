@@ -3,6 +3,10 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faBars } from "@fortawesome/free-solid-svg-icons";
 import "../styles/Navbar.css";
 function Navbar() {
+  const test = window.location.pathname == "/" ? "active" : "null";
+  console.log(window.location.pathname);
+  console.log(test);
+
   const [respNavBar, setRespNavBar] = useState(false);
   function toggleRespNavBar() {
     setRespNavBar((prevState) => !prevState);
@@ -16,7 +20,7 @@ function Navbar() {
         <ul>
           <h2 className="logo">Horse</h2>
           <li>
-            <a className="active" href="">
+            <a className="" href="#home">
               Home
             </a>
           </li>
@@ -33,10 +37,10 @@ function Navbar() {
             <a href="">Buy</a>
           </li>
           <li>
-            <a href="">Roadmap</a>
+            <a href="#roadmap">Roadmap</a>
           </li>
           <li>
-            <a href="">Join the community</a>
+            <a href="#join">Join the community</a>
           </li>
           <li>
             <a href="">Launch App</a>
@@ -51,7 +55,7 @@ function Navbar() {
       <nav>
         <ul>
           <li>
-            <a className="active" href="">
+            <a className="" href="#home">
               Home
             </a>
           </li>
@@ -68,10 +72,12 @@ function Navbar() {
             <a href="">Buy</a>
           </li>
           <li>
-            <a href="">Roadmap</a>
+            <a className="" href="#roadmap">
+              Roadmap
+            </a>
           </li>
           <li>
-            <a href="">Join the community</a>
+            <a href="#join">Join the community</a>
           </li>
         </ul>
       </nav>
