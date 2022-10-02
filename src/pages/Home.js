@@ -526,7 +526,7 @@ function Home() {
         .then((result) => {
           accountChangedHandler(result[0]);
           setConnButtonText("Connected  ✓");
-          if (window.ethereum.networkVersion !== "43114") {
+          if (window.ethereum.networkVersion !== "0xa4b1") {
             window.ethereum.request({
               method: "wallet_addEthereumChain",
               params: [
